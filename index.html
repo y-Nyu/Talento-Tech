@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namida Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="sakura.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="a">
+
+            <img class="img-header" src="sakura.png" alt="arbol de cerezos">
+            <h1>Namida Store</h1>
+        </div>
+    </header>
+
+    <nav>
+        <ul class="navbar">
+            <li class="nav-list"><a href="#inicio" >Inicio</a></li>
+            <li class="nav-list"><a href="#productos" >Productos</a></li>
+            <li class="nav-list"><a href="#reseñas" >Reseñas</a></li>
+            <li class="nav-list"><a href="#contacto" >Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <H2>Productos</H2>
+        <section id="productos" class="productos">
+            <div class="producto">
+                <a href=""><img class="producto-img" src="Blue Lock 1.png" alt=""></a>
+                <p class="producto-titulo">Blue Lock 1</p>
+            </div>
+            <div class="producto">
+                <a href=""><img class="producto-img" src="Bocchi the Rock 1.png" alt=""></a>
+                <p class="producto-titulo">Bocchi the Rock 1</p>
+            </div>
+            <div class="producto">
+                <a href=""><img class="producto-img" src="Frieren 11.png" alt=""></a>
+                <p class="producto-titulo">Frieren 11</p>
+            </div>
+            <div class="producto">
+                    <a href=""><img class="producto-img" src="Jujutsu Kaisen 14.png" alt=""></a>
+                <p class="producto-titulo">Jujutsu Kaisen 14</p>
+            </div>
+        </section>
+
+        <!-- RESEÑAS -->
+
+        <div id="reseñas" class="reseñas">
+            <h2 class="reseñas-titulo">Reseñas</h2>
+            <article class="reseña">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo asperiores veritatis quia id saepe non iusto?</p>
+            </article>
+            <article class="reseña">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo asperiores veritatis quia id saepe non iusto?</p>
+            </article>
+            <article class="reseña">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo asperiores veritatis quia id saepe non iusto?</p>
+            </article>
+            <article class="reseña">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo asperiores veritatis quia id saepe non iusto?</p>
+            </article>
+            <article class="reseña">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo asperiores veritatis quia id saepe non iusto?</p>
+            </article>
+            <article class="reseña">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo asperiores veritatis quia id saepe non iusto?</p>
+            </article>
+        </div>
+
+
+        <!-- FORMULARIO -->
+        <form id="contacto" class="form" action="https://formspree.io/f/meoqopwl" method="POST">
+            <H2>Contacto</H2>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" required>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" required>
+
+            <label for="mensaje">Mensaje</label>
+            <textarea name="mensaje" id="mensaje" rows="4" cols="50" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-copyright">
+            <p class="footer-info">©Namida Store - 2024. Todos los derechos reservados.</p>
+            <!-- <p class="footer-info">Namida Store</p> -->
+        </div>
+    </footer>
+    
+</body>
+</html>
